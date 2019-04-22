@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 203.29 72.1"><defs><style>.cls-1{fill:#0497af;}.cls-2{fill:#0bc6ff;}.cls-3{fill:#00a6cc;}.cls-4{fill:#d64747;}.cls-5{fill:#ea4b4b;}.cls-6{fill:#ededed;}.cls-7{fill:#f50;}</style></defs><title>Asset 4</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><rect class="cls-1" x="128.9" y="30.08" width="31.34" height="2.68"/><polygon class="cls-1" points="154.61 30.08 160.66 36.12 158.76 38.02 150.83 30.08 154.61 30.08"/><polygon class="cls-1" points="150.83 32.76 158.76 24.83 160.66 26.72 154.61 32.76 150.83 32.76"/><rect class="cls-2" x="169.95" y="11.65" width="3.41" height="11.84"/><rect class="cls-3" x="166.53" y="11.65" width="3.41" height="11.84"/><rect class="cls-4" x="158.63" y="22.95" width="22.1" height="1.87"/><rect class="cls-4" x="158.63" y="24.83" width="11.32" height="13.19"/><path class="cls-3" d="M158.63,38s1.21,7.84,11.32,7.84V38Z"/><rect class="cls-5" x="169.41" y="24.83" width="11.32" height="13.19"/><path class="cls-2" d="M180.73,38s-1.2,7.84-11.32,7.84V38Z"/>
+    
+<g id="WingB"><path id="WingB-2" data-name="WingB" class="cls-6" d="M136.6,8.24a1.51,1.51,0,0,0,1.51,1.51h63.68a1.51,1.51,0,0,0,1.51-1.51h0a1.51,1.51,0,0,0-1.51-1.51H138.11a1.51,1.51,0,0,0-1.51,1.51Z"/><rect id="WingB-3" data-name="WingB" class="cls-1" x="162.05" y="4.82" width="15.8" height="6.83"/><path id="WingB-4" data-name="WingB" class="cls-5" d="M170,0a4.82,4.82,0,0,1,4.82,4.82H170Z"/><path id="WingB-5" data-name="WingB" class="cls-4" d="M170,0a4.82,4.82,0,0,0-4.82,4.82H170Z"/>
+    
+    <animateTransform attributeName="transform"
+                      attributeType="XML"
+                      type="rotate"
+                      from="0 50 50"
+                      to="360 50 50"
+                      dur="2s"
+                      repeatCount="indefinite"  />
+
+</g>
+    
+<path class="cls-7" d="M149.66,7c.13,0,.12-.43,0-.43s-.12.43,0,.43Z"/><rect class="cls-1" x="43.06" y="30.08" width="31.34" height="2.68"/><polygon class="cls-1" points="48.68 30.08 42.64 36.12 44.53 38.02 52.47 30.08 48.68 30.08"/><polygon class="cls-1" points="52.47 32.76 44.53 24.83 42.64 26.72 48.68 32.76 52.47 32.76"/><rect class="cls-3" x="74.39" y="18.8" width="54.64" height="4.15"/><path class="cls-4" d="M112.73,18.8c0-.27,0-.53,0-.8a11,11,0,0,0-11-11V18.8Z"/><path class="cls-5" d="M90.7,18.8c0-.27,0-.53,0-.8a11,11,0,0,1,11-11V18.8Z"/><rect class="cls-2" x="29.93" y="11.65" width="3.41" height="11.84"/><rect class="cls-3" x="33.35" y="11.65" width="3.41" height="11.84"/><rect class="cls-4" x="22.57" y="22.95" width="22.1" height="1.87"/><rect class="cls-4" x="33.35" y="24.83" width="11.32" height="13.19"/><path class="cls-3" d="M44.66,38s-1.2,7.84-11.32,7.84V38Z"/><rect class="cls-5" x="22.57" y="24.83" width="11.32" height="13.19"/><path class="cls-2" d="M22.57,38s1.21,7.84,11.32,7.84V38Z"/><rect class="cls-1" x="68.83" y="40.27" width="31.34" height="2.68" transform="translate(-4.67 71.94) rotate(-45)"/>
+    
+<g id="WingA"><path id="WingA-2" data-name="WingA" class="cls-6" d="M66.69,8.24a1.51,1.51,0,0,1-1.51,1.51H1.51A1.51,1.51,0,0,1,0,8.24H0A1.51,1.51,0,0,1,1.51,6.73H65.19a1.51,1.51,0,0,1,1.51,1.51Z"/><rect id="WingA-3" data-name="WingA" class="cls-1" x="25.45" y="4.82" width="15.8" height="6.83"/><path id="WingA-4" data-name="WingA" class="cls-5" d="M33.28,0a4.82,4.82,0,0,0-4.82,4.82h4.82Z"/><path id="WingA-5" data-name="WingA" class="cls-4" d="M33.28,0A4.82,4.82,0,0,1,38.1,4.82H33.28Z"/>
+    
+    <animateTransform attributeName="transform"
+                      attributeType="XML"
+                      type="rotate"
+                      from="0 50 50"
+                      to="360 50 50"
+                      dur="2s"
+                      repeatCount="indefinite"  />
+    
+</g>
+    
+<rect class="cls-1" x="71.72" y="54.16" width="2.68" height="16.61"/><circle class="cls-1" cx="73.05" cy="70.76" r="1.34"/><circle class="cls-5" cx="73.05" cy="54.16" r="3.05"/><circle class="cls-4" cx="73.05" cy="54.16" r="1.21"/><rect class="cls-1" x="117.45" y="25.94" width="2.68" height="31.34" transform="translate(5.37 96.19) rotate(-45)"/><rect class="cls-1" x="128.9" y="54.16" width="2.68" height="16.61"/><circle class="cls-1" cx="130.24" cy="70.76" r="1.34"/><circle class="cls-5" cx="130.24" cy="54.16" r="3.05"/><circle class="cls-4" cx="130.24" cy="54.16" r="1.21"/><rect class="cls-1" x="85.98" y="34.58" width="31.34" height="2.68" transform="translate(4.38 82.39) rotate(-45)"/><rect class="cls-1" x="88.86" y="48.46" width="2.68" height="9.91"/><circle class="cls-1" cx="90.2" cy="58.37" r="1.34"/><circle class="cls-5" cx="90.2" cy="48.46" r="3.05"/><circle class="cls-4" cx="90.2" cy="48.46" r="1.21"/><rect class="cls-1" x="100.89" y="20.25" width="2.68" height="31.34" transform="translate(4.55 82.8) rotate(-45)"/><rect class="cls-1" x="112.33" y="48.46" width="2.68" height="9.91"/><circle class="cls-1" cx="113.67" cy="58.37" r="1.34"/><circle class="cls-5" cx="113.67" cy="48.46" r="3.05"/><circle class="cls-4" cx="113.67" cy="48.46" r="1.21"/><path class="cls-3" d="M129,37.28V23H101.71V41.3h24.53C127.12,41.23,129,40.69,129,37.28Z"/><path class="cls-2" d="M74.39,37.28V23h27.32V41.3H77.18C76.3,41.23,74.39,40.69,74.39,37.28Z"/><path class="cls-7" d="M53.64,7c.13,0,.12-.43,0-.43s-.12.43,0,.43Z"/></g></g></svg>

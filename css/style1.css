@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+}
+
+body{
+    background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.6));
+    margin: 0;
+    padding: 0;
+    max-width: 100%;   
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.section-hero{
+    width: 100vw;
+    clip-path: polygon(10% 10%,20% 0,30% 20%,0);
+    height: 100vh;
+}
+
+#mountains{
+    background-color: deepskyblue;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height:100%;
+    width: 100%;
+    z-index: -2;
+}
+
+.overlay-screen{
+    z-index: -1;
+    position: absolute;
+    overflow: hidden;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.84),rgba(0,0,0,0.7));
+}
+
+/* Wing Animation for Drone! */
+
+.drone {
+    position: absolute;
+    z-index: 1;
+    height: 80px;
+    width: auto;
+    left: 40px;
+    top: 200px;
+    overflow: hidden;
+}
+
+.drone #WingA, .drone #WingB{
+    animation-name: rotation;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+
+.drone #WingA{
+    transform-origin: 16.5% 0%;
+    animation-duration: 0.6s;
+}
+
+.drone #WingB{
+    transform-origin: 83.5% 0%;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes rotation {
+        from {
+                -webkit-transform: translate3d(0, 1px, 0) rotate3d(0, 1, 0, 0deg);
+        }
+        to {
+                -webkit-transform: translate3d(0.1px, 2px, 0) rotate3d(0, 1, 0, 359deg);
+        }
+}
+
+/* --------------- */
+/*      NAVBAR     */
+/* --------------- */
+
+.navbar{
+    margin: 0 50px;
+    margin-top: 40px;
+}
+
+.navbar .navbar-logo img{
+    width: 100px;
+    height: auto;
+    float: left;
+}
+
+.navbar .navtabs ul{
+    float: right;
+}
+
+.navbar .navtabs ul li{
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    color: darksalmon;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    letter-spacing: 0.5px;
+    font-weight: 300;
+    margin-right: 1.2em;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.3s, color 0.3s;
+    padding-bottom: 5px;
+}
+
+.navbar .navtabs ul li:last-child{
+    margin-right: 0;
+}
+
+.navbar .navtabs ul li:hover{
+    color: antiquewhite;
+    border-bottom: 1px solid whitesmoke;
+}
+
+/* ------------------------ */
+/*      Section 0: HERO     */
+/* ------------------------ */
+
+.hero{
+    width: 70%;
+    text-align: center;
+    position: absolute;
+    top:40vh;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+    color:antiquewhite;
+    
+}
+@media screen and (max-width: 600px) {
+  .hero-logo img {
+     padding-right: 80px;
+    
+ 
+  }
+}
+.hero .hero-logo img{
+    max-width: 360px;
+    height: auto;
+    
+    
+}
+
+.hero .hero-textbox{
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+
+.hero .hero-textbox h1{
+    font-weight: 300;
+    font-size: 1.8em;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+}
+
+.learn-more{
+    width: 70%;
+    text-align: center;
+    position: absolute;
+    bottom: 5vh;
+    left: 0;
+    right: 0;
+    font-size: 0.7em;
+    text-transform: uppercase;
+    word-spacing: 1px;
+    letter-spacing: 0.5px;
+    margin: auto;
+    color: #dbdbdb;
+    fill:#dbdbdb;
+    transition: color 0.3s, fill 0.3s;
+}
+
+.learn-more svg{
+    margin-bottom: 10px;
+    transition: transform 0.4s;
+}
+
+.learn-more:hover>svg{
+    transform: rotateZ(180deg);
+}
+
+.learn-more:hover{
+    
+    color: antiquewhite;
+    fill: antiquewhite;
+}
+
